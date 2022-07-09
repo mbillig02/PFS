@@ -1,0 +1,49 @@
+object SFTPForm: TSFTPForm
+  Left = 0
+  Top = 0
+  Caption = 'SFTPForm'
+  ClientHeight = 261
+  ClientWidth = 563
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object ScSSHServer: TScSSHServer
+    Authentications = [atPassword]
+    Storage = ScFileStorage
+    SFTPServer = ScSFTPServer
+    AfterClientConnect = ScSSHServerAfterClientConnect
+    AfterClientDisconnect = ScSSHServerAfterClientDisconnect
+    OnClientError = ScSSHServerClientError
+    BeforeChannelConnect = ScSSHServerBeforeChannelConnect
+    AfterChannelDisconnect = ScSSHServerAfterChannelDisconnect
+    Left = 72
+    Top = 72
+  end
+  object ScSFTPServer: TScSFTPServer
+    OnOpen = ScSFTPServerOpen
+    OnOpenFile = ScSFTPServerOpenFile
+    OnCloseFile = ScSFTPServerCloseFile
+    OnReadFile = ScSFTPServerReadFile
+    OnWriteFile = ScSFTPServerWriteFile
+    OnRemoveFile = ScSFTPServerRemoveFile
+    OnRenameFile = ScSFTPServerRenameFile
+    OnMakeDirectory = ScSFTPServerMakeDirectory
+    OnRemoveDirectory = ScSFTPServerRemoveDirectory
+    OnOpenDirectory = ScSFTPServerOpenDirectory
+    OnReadDirectory = ScSFTPServerReadDirectory
+    OnRequestFileSecurityAttributes = ScSFTPServerRequestFileSecurityAttributes
+    Left = 168
+    Top = 72
+  end
+  object ScFileStorage: TScFileStorage
+    Left = 256
+    Top = 72
+    Path = ''
+  end
+end

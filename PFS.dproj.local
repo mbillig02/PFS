@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/11/10 17:16:17.981.dfm,C:\Tmp\Delphi.Win32\PFS\OKCANCL2.dfm=C:\Tmp\Delphi.Win32\PFS\AUUnit.dfm</Transaction>
+    <Transaction>2019/11/10 17:16:17.981.pas,C:\Tmp\Delphi.Win32\PFS\OKCANCL2.pas=C:\Tmp\Delphi.Win32\PFS\AUUnit.pas</Transaction>
+    <Transaction>2020/08/01 19:50:26.000.522,=C:\Tmp\Delphi.Win32\PFS\Unit1.pas</Transaction>
+    <Transaction>2020/08/01 19:51:54.000.596,C:\Tmp\Delphi.Win32\PFS\InfoPad.dfm=C:\Tmp\Delphi.Win32\PFS\Unit1.dfm</Transaction>
+    <Transaction>2020/08/01 19:51:54.000.596,C:\Tmp\Delphi.Win32\PFS\InfoPad.pas=C:\Tmp\Delphi.Win32\PFS\Unit1.pas</Transaction>
+    <Transaction>2020/10/13 18:50:42.000.549,=C:\Tmp\Delphi.Win32\PFS\Unit1.pas</Transaction>
+    <Transaction>2020/10/13 18:52:11.000.492,C:\Tmp\Delphi.Win32\PFS\Unit1.pas=C:\Tmp\Delphi.Win32\PFS\Options.pas</Transaction>
+    <Transaction>2020/10/13 18:52:11.000.492,C:\Tmp\Delphi.Win32\PFS\Unit1.dfm=C:\Tmp\Delphi.Win32\PFS\Options.dfm</Transaction>
+    <Transaction>2020/10/13 18:54:26.000.667,C:\Tmp\Delphi.Win32\PFS\Options.pas=C:\Tmp\Delphi.Win32\PFS\OptUnit.pas</Transaction>
+    <Transaction>2020/10/13 18:54:26.000.667,C:\Tmp\Delphi.Win32\PFS\Options.dfm=C:\Tmp\Delphi.Win32\PFS\OptUnit.dfm</Transaction>
+    <Transaction>2020/10/13 18:55:23.000.018,C:\Tmp\Delphi.Win32\PFS\OptUnit.pas=C:\Tmp\Delphi.Win32\PFS\SetUnit.pas</Transaction>
+    <Transaction>2020/10/13 18:55:23.000.018,C:\Tmp\Delphi.Win32\PFS\OptUnit.dfm=C:\Tmp\Delphi.Win32\PFS\SetUnit.dfm</Transaction>
+    <Transaction>2020/10/14 14:46:39.000.019,=C:\Tmp\Delphi.Win32\PFS\Unit1.pas</Transaction>
+    <Transaction>2020/10/14 14:47:30.000.032,C:\Tmp\Delphi.Win32\PFS\Unit1.pas=C:\Tmp\Delphi.Win32\PFS\ScrPosF.pas</Transaction>
+    <Transaction>2020/10/14 14:47:30.000.032,C:\Tmp\Delphi.Win32\PFS\Unit1.dfm=C:\Tmp\Delphi.Win32\PFS\ScrPosF.dfm</Transaction>
+    <Transaction>2020/10/24 14:40:36.000.603,C:\Tmp\Delphi.Win32\PFS\InfoPad.pas=</Transaction>
+    <Transaction>2021/11/06 09:36:57.000.070,C:\TMP\Delphi.Win32\UTL\UtlUnit.pas=</Transaction>
+    <Transaction>2021/11/06 09:41:50.000.145,=C:\TMP\Delphi.Win32\PFS\UtlUnit.pas</Transaction>
+    <Transaction>2022/04/06 16:33:58.000.062,=C:\TMP\Delphi.Win32\PFS\ScSFTPServerMod.pas</Transaction>
+    <Transaction>2022/04/08 15:04:02.000.361,=C:\TMP\Delphi.Win32\PFS\Unit1.pas</Transaction>
+    <Transaction>2022/04/08 15:04:16.000.039,C:\TMP\Delphi.Win32\PFS\Unit1.dfm=C:\TMP\Delphi.Win32\PFS\FTPUnit.dfm</Transaction>
+    <Transaction>2022/04/08 15:04:16.000.039,C:\TMP\Delphi.Win32\PFS\Unit1.pas=C:\TMP\Delphi.Win32\PFS\FTPUnit.pas</Transaction>
+    <Transaction>2022/04/17 17:19:07.000.421,=C:\TMP\Delphi.Win32\PFS\Unit1.pas</Transaction>
+    <Transaction>2022/04/17 17:19:31.000.694,C:\TMP\Delphi.Win32\PFS\SFTPUnit.pas=C:\TMP\Delphi.Win32\PFS\Unit1.pas</Transaction>
+    <Transaction>2022/04/17 17:19:31.000.694,C:\TMP\Delphi.Win32\PFS\SFTPUnit.dfm=C:\TMP\Delphi.Win32\PFS\Unit1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

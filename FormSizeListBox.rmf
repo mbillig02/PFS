@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rxm:regexmagic xmlns:rxm="http://www.regexmagic.com/regexmagic2A.xsd" version="2.10">
+	<formula>
+		<samples>
+			<sample name="Sample 1">
+				<string><![CDATA[T:1234 | L:1234 | H:1234 | W:1234]]></string>
+				<field>
+					<pos start="0" stop="2"/>
+				</field>
+				<field>
+					<pos start="2" stop="6"/>
+				</field>
+				<field>
+					<pos start="6" stop="11"/>
+				</field>
+				<field>
+					<pos start="11" stop="15"/>
+				</field>
+				<field>
+					<pos start="15" stop="20"/>
+				</field>
+				<field>
+					<pos start="20" stop="24"/>
+				</field>
+				<field>
+					<pos start="24" stop="29"/>
+				</field>
+				<field>
+					<pos start="29" stop="33"/>
+				</field>
+			</sample>
+		</samples>
+		<match validation="strict">
+			<field>
+				<literal>
+					<literal>T:</literal>
+				</literal>
+			</field>
+			<field>
+				<integer>
+					<format>dec</format>
+					<ranges>1234</ranges>
+				</integer>
+			</field>
+			<field>
+				<literal>
+					<literal> | L:</literal>
+				</literal>
+			</field>
+			<field>
+				<integer>
+					<format>dec</format>
+					<ranges>1234</ranges>
+				</integer>
+			</field>
+			<field>
+				<literal>
+					<literal> | H:</literal>
+				</literal>
+			</field>
+			<field>
+				<integer>
+					<format>dec</format>
+					<ranges>1234</ranges>
+				</integer>
+			</field>
+			<field>
+				<literal>
+					<literal> | W:</literal>
+				</literal>
+			</field>
+			<field>
+				<integer>
+					<format>dec</format>
+					<ranges>1234</ranges>
+				</integer>
+			</field>
+		</match>
+		<action>
+			<captures>
+				<capture name="Top" field="1"/>
+				<capture name="Left" field="3"/>
+				<capture name="Height" field="5"/>
+				<capture name="Width" field="7"/>
+			</captures>
+		</action>
+	</formula>
+</rxm:regexmagic>
